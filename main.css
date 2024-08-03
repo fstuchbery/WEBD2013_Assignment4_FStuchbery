@@ -1,0 +1,23 @@
+/******w**************
+    
+    Assignment 4 Stylesheet
+    Name:Finn Stuchbery 
+    Date: June 28th 2024
+    Description: adding some style to my html!
+
+*********************/
+
+#bigForm {
+    background-color: #ffffff;
+    border: 1px solid #000;
+    width: 25%;
+}
+
+.touchUp {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: #a8a4a4;
+}

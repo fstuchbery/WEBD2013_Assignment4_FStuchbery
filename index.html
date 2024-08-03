@@ -1,0 +1,50 @@
+<!-------w------------
+
+    Assignment 4
+    Name: Finn Stuchbery 
+    Date: June 28th 2024
+    Description: I am making a form to recieve some input t osort through a local API
+
+--------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="main.css" />
+		<title>Elections</title>
+	</head>
+	<body>
+			<form method = "post"  id = "bigForm" onsubmit="handleSubmit(event)">
+				<br>
+				<label class = "touchUp">By-Election or General Election:</label><br>
+				<input type = text id = "Type" class = "touchUp" placeholder="By-Election/General Election"> <br>
+
+				<br>
+
+				<label class = "touchUp">The Area it took place in:</label><br>
+				<input type = text id = "Area" class = "touchUp" placeholder="ex. Winnipeg School Division"> <br>
+
+				<br>
+
+				<label class = "touchUp">The Ward Number:</label><br>
+				<input type = text id = "WardInput" class = "touchUp" placeholder="1-9"> <br>
+				<br>
+				
+	
+				<label class = "touchUp">Did they Win:</label><br>
+				<input type = text id = "wonElectionInput" class = "touchUp" placeholder="Yes/No"> <br>
+				<br>
+
+				<button id = "searchButton" type = "submit" class = "touchUp">Search</button>
+			</form>
+			<h1>Candidates (Youngest-Oldest):</h1>
+			<div id = "firstDiv"></div>
+
+
+
+	</body>
+</html>
